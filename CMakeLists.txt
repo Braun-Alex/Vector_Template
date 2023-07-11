@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(Vector_Template)
+set(CMAKE_CXX_STANDARD 23)
+set(PROJECT_SOURCES vector_template.h)
+add_executable(${PROJECT_NAME} ${PROJECT_SOURCES})
